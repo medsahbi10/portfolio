@@ -15,10 +15,10 @@ interface GitHubData {
 
 export default function LiveGitHubWidget() {
   const [githubData, setGithubData] = useState<GitHubData>({
-    commits: 1247,
-    stars: 89,
-    repos: 42,
-    lastCommit: "2 hours ago",
+    commits: 312,
+    stars: 16,
+    repos: 12,
+    lastCommit: "Today",
   })
 
   // Simulate live updates
@@ -68,9 +68,9 @@ export default function LiveGitHubWidget() {
         <div className="space-y-2">
           <div className="text-sm text-white/60">Recent Activity:</div>
           <div className="space-y-1">
-            <div className="text-sm text-white/80">🚀 Updated portfolio design system</div>
-            <div className="text-sm text-white/80">✨ Added 3D animations to hero section</div>
-            <div className="text-sm text-white/80">🔧 Optimized build performance</div>
+            <div className="text-sm text-white/80">🤖 Shipped Insight Agent with LangGraph</div>
+            <div className="text-sm text-white/80">📚 Built Legal-RAG EU regulations system</div>
+            <div className="text-sm text-white/80">⚽ Published World Cup ETL pipeline</div>
           </div>
         </div>
       </CardContent>

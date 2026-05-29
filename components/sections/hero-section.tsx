@@ -64,7 +64,7 @@ export default function HeroSection() {
             transition={{ delay: 0.8, duration: 1 }}
             className="text-6xl md:text-8xl font-bold mb-6 liquid-gradient font-sora"
           >
-            John Doe
+            Mohamed Sahbi Ben Rejeb
           </motion.h1>
 
           {/* Subheading */}
@@ -74,7 +74,7 @@ export default function HeroSection() {
             transition={{ delay: 1, duration: 0.8 }}
             className="text-xl md:text-2xl text-white/80 mb-8 font-light"
           >
-            Inventing tomorrow's web, one line of code at a time.
+            Data & AI Engineer · Building production pipelines, fine-tuning LLMs & shipping agentic AI systems.
           </motion.p>
 
           {/* CTA Buttons */}

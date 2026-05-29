@@ -16,8 +16,10 @@ export default function AboutSection() {
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6 liquid-gradient font-sora">About Me</h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            I'm a creative technologist who bridges the gap between design and development, crafting digital experiences
-            that push the boundaries of what's possible on the web.
+            Junior Data & AI Engineer with hands-on experience building production data pipelines, fine-tuning LLMs,
+            and shipping agentic AI systems with full observability. Strong in Python, SQL, and modern ML tooling —
+            with a Business Intelligence foundation and a track record of taking projects from notebook to Dockerized
+            service under CI/CD.
           </p>
         </motion.div>
 
