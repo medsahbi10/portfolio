@@ -1,8 +1,7 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
-import { VscArrowRight, VscGithub, VscMail } from 'react-icons/vsc';
+import { VscArrowRight, VscGithub, VscMail, VscCode } from 'react-icons/vsc';
 
 import TypedFocus from '@/components/TypedFocus';
 
@@ -14,14 +13,9 @@ export default function HomePage() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.header}>
-            <Image
-              src="/photo.jpg"
-              alt="Mohamed Sahbi Ben Rejeb"
-              width={128}
-              height={128}
-              priority
-              className={styles.photo}
-            />
+            <div className={styles.icon}>
+              <VscCode size={32} />
+            </div>
           </div>
 
           <div className={styles.intro}>

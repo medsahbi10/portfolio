@@ -46,14 +46,9 @@
   margin-bottom: 8px;
 }
 
-.photo {
-  display: block;
-  width: 128px;
-  height: 128px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid rgba(var(--accent-color-rgb), 0.6);
-  box-shadow: 0 0 0 6px rgba(var(--accent-color-rgb), 0.08);
+.icon {
+  color: var(--accent-color);
+  opacity: 0.8;
 }
 
 /* Intro Section */

@@ -1,7 +1,6 @@
 'use client';
 
 import { VscGithub, VscMail, VscLinkExternal } from 'react-icons/vsc';
-import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from '@/styles/AboutPage.module.css';
@@ -59,13 +58,6 @@ const AboutPage = () => {
         {/* Header */}
         <header className={styles.header}>
           <div className={styles.headerContent}>
-            <Image
-              src="/photo.jpg"
-              alt="Mohamed Sahbi Ben Rejeb"
-              width={72}
-              height={72}
-              className={styles.avatar}
-            />
             <div className={styles.headerText}>
               <h1 className={styles.name}>Mohamed Sahbi Ben Rejeb</h1>
               <p className={styles.role}>Data & AI Engineer · BI Engineer at Laboratoires MédiS</p>
